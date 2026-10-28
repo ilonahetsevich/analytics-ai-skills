@@ -1,7 +1,5 @@
 # Data Health Watchdog
 
-> **Confidential work.** Company data and internal assets are withheld. All examples are fictional and were created to show the approach.
-
 **Recurring task:** checking whether marketing dashboard data can be trusted before people use it.
 
 An AI skill that checks marketing dashboards every business day for missing or unusual data. When something looks wrong, it posts an alert that explains the likely cause. It helps analysts and dashboard owners catch problems before stakeholders do. Each run produces one status message per dashboard, which is either an all-clear or an alert with a short diagnosis.
